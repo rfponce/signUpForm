@@ -28,6 +28,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+#image-logo-container {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#credit-container {
+  font-size: smaller;
 }
 
 .form-element-container {
