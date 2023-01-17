@@ -6,6 +6,8 @@ body {
 
 #main-image-container {
   background-image: url(./ian-dooley-hpTH5b6mo2s-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .form-element-container {
