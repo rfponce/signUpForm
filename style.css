@@ -28,3 +28,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+#presentation-text,
+#form-container,
+#has-account {
+  padding-left: 10px;
+  padding-right: 10px;
+}
