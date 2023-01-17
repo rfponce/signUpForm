@@ -1,3 +1,9 @@
+:root {
+  --myRed:rgb(231,36,45);
+  --myBlue:rgb(0,80,141);
+  --myGray:rgb(80,92,94);
+}
+
 body {
   margin: 0;
   padding: 0;
