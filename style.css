@@ -48,6 +48,7 @@ body {
 .form-element-container {
   display: flex;
   flex-direction: column;
+  margin-top: 5px;
 }
 
 #presentation-text,
@@ -59,10 +60,6 @@ body {
 
 legend {
   text-align: center;
-}
-
-.form-element-container {
-  margin-top: 5px;
 }
 
 label {
