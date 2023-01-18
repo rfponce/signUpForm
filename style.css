@@ -15,7 +15,7 @@ body {
 }
 
 #main-image-container {
-  background-image: url(./ian-dooley-hpTH5b6mo2s-unsplash.jpg);
+  background-image: url(./jr-korpa-Dm-DXaMx2vY-unsplash.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -27,7 +27,7 @@ body {
 #photo-color-layer {
   width: 100vw;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: #fdf5f2b3;
   display: flex;
   justify-content: center;
   align-items: center;
