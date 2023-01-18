@@ -1,7 +1,8 @@
 :root {
-  --myRed:rgb(231,36,45);
-  --myBlue:rgb(0,80,141);
-  --myGray:rgb(80,92,94);
+  --contrast:#fdf5f2;
+  --background:#e8c42b;
+  --font:#24201e;
+  --accent:#b75244;
 }
 
 body {
@@ -9,6 +10,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Sofia Sans', sans-serif;
+  color: var(--font);
+  background-color: var(--background);
 }
 
 #main-image-container {
@@ -67,8 +70,8 @@ label {
 }
 
 button {
-  background-color: var(--myRed);
-  color: azure;
+  background-color: var(--accent);
+  color: var(--contrast);
   border-style: none;
   border-radius: 3px;
   box-shadow: 0px 3px 5px rgba(255, 255, 255, 0.4) inset, 0px -3px 5px rgba(0, 0, 0, 0.4) inset;
