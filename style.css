@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 30vh;
+  height: 25vh;
 }
 
 #photo-color-layer {
@@ -39,7 +39,7 @@ body {
 }
 
 #credit-container {
-  font-size: smaller;
+  font-size: xx-small;
 }
 
 .form-element-container {
