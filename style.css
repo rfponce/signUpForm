@@ -14,7 +14,7 @@ body {
   background-color: var(--background);
 }
 
-#main-image-container {
+#main-image {
   background-image: url(./jr-korpa-Dm-DXaMx2vY-unsplash.jpg);
   background-position: center;
   background-size: cover;

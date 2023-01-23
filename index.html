@@ -15,66 +15,64 @@
 
 <body>
   <div id="wrapper">
-    <section id="main-image-container">
-      <div id="photo-color-layer">
-        <div id="image-logo-container">
-          <img src="./logo.png" alt="a logo" />
+    <div id="main-image-container">
+      <section id="main-image">
+        <div id="photo-color-layer">
+          <div id="image-logo-container">
+            <img src="./logo.png" alt="a logo" />
+          </div>
+          <div id="credit-container">
+            Photo by <a href="https://unsplash.com/@jrkorpa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jr Korpa</a> on <a href="https://unsplash.com/es/fotos/Dm-DXaMx2vY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+          </div>
         </div>
-        <div id="credit-container">
-          Photo by <a href="https://unsplash.com/@jrkorpa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jr Korpa</a> on <a href="https://unsplash.com/es/fotos/Dm-DXaMx2vY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-        </div>
-      </div>
-    </section>
-    <section id="presentation-text">
-      <p>This is not a real online service! You know you need something like this in your life to help you realize your
-        deepest dreams. Sign up <em>now</em> to get started.</p>
-
-      <p>You <em>know</em> you want to.</p>
       </section>
-    <section id="form-container">
-      <form action="">
-        <legend>Let's do this</legend>
+    </div>
 
-        <div class="form-element-container">
-          <label for="first-name">First Name</label>
-          <input type="text" name="firstName" id="first-name" />
+    <div id="main-content-container">
+      <section id="presentation-text">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your
+          deepest dreams. Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+        </section>
+      <section id="form-container">
+        <form action="">
+          <legend>Let's do this</legend>
+          <div class="form-element-container">
+            <label for="first-name">First Name</label>
+            <input type="text" name="firstName" id="first-name" />
+          </div>
+          <div class="form-element-container">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="lastName" id="last-name" />
+          </div>
+          <div class="form-element-container">
+            <label for="email">Email</label>
+            <input type="email" name="e-mail" id="email" />
+          </div>
+          <div class="form-element-container">
+            <label for="phone-number">Phone Number</label>
+            <input type="tel" name="phoneNumber" id="phone-number" />
+          </div>
+          <div class="form-element-container">
+            <label for="password">Password</label>
+            <input type="password" name="passWord" id="password" />
+          </div>
+          <div class="form-element-container">
+            <label for="password-confirm">Repeat Password</label>
+            <input type="password" name="passConfirm" id="password-confirm" />
+            <span id="passwords-validation-warning">Passwords do not match</span>
+          </div>
+      
+          <div class="form-element-container">
+            <button type="submit">Create Account</button>
+          </div>
+        </form>
+      </section>
+      <section id="has-account">
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </section>
         </div>
-
-        <div class="form-element-container">
-          <label for="last-name">Last Name</label>
-          <input type="text" name="lastName" id="last-name" />
-        </div>
-
-        <div class="form-element-container">
-          <label for="email">Email</label>
-          <input type="email" name="e-mail" id="email" />
-        </div>
-
-        <div class="form-element-container">
-          <label for="phone-number">Phone Number</label>
-          <input type="tel" name="phoneNumber" id="phone-number" />
-        </div>
-
-        <div class="form-element-container">
-          <label for="password">Password</label>
-          <input type="password" name="passWord" id="password" />
-        </div>
-
-        <div class="form-element-container">
-          <label for="password-confirm">Repeat Password</label>
-          <input type="password" name="passConfirm" id="password-confirm" />
-          <span id="passwords-validation-warning">Passwords do not match</span>
-        </div>
-        
-        <div class="form-element-container">
-          <button type="submit">Create Account</button>
-        </div>
-      </form>
-    </section>
-    <section id="has-account">
-      <p>Already have an account? <a href="#">Log in</a></p>
-    </section>
-  </div>
+    </div>
   <footer>
     
   </footer>
