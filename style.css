@@ -79,3 +79,23 @@ button {
   font-size: xx-small;
   color: var(--accent);
 }
+
+@media (min-width: 768px) {
+  #presentation-text {
+    font-size: larger;
+  }
+
+  legend {
+    font-size: larger;
+  }
+
+  #form-inputs-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-sub-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
