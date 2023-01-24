@@ -107,3 +107,19 @@ button {
     margin: auto;
   }
 }
+
+@media (min-width: 1024px) {
+  #wrapper {
+    display: flex;
+    height: 100vh;
+  }
+
+  #main-image-container {
+    display: flex;
+    width: 50%;
+  }
+
+  #main-image {
+    padding: 0;
+  }
+}
