@@ -21,28 +21,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 25vh;
+  padding: 40px;
 }
 
 #photo-color-layer {
-  width: 100vw;
-  height: 100%;
+  display: flex;
   background-color: #fdf5f2b3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  padding: 5px;
 }
 
-#image-logo-container {
-  height: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#credit-container {
+#credit-container,
+#credit-container a {
   font-size: xx-small;
+  color: var(--contrast);
 }
 
 .form-element-container {
