@@ -98,4 +98,12 @@ button {
     display: flex;
     justify-content: space-evenly;
   }
+
+  .form-element-container {
+    width: 300px;
+  }
+
+  .submit-button-container {
+    margin: auto;
+  }
 }
