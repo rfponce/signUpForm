@@ -14,10 +14,13 @@ body {
   background-color: var(--background);
 }
 
-#main-image {
+#main-image-container {
   background-image: url(./jr-korpa-Dm-DXaMx2vY-unsplash.jpg);
   background-position: center;
   background-size: cover;
+}
+
+#main-image {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,9 +33,14 @@ body {
   padding: 5px;
 }
 
+#credit-container {
+  padding: 10px;
+}
+
 #credit-container,
 #credit-container a {
   font-size: xx-small;
+  text-align: center;
   color: var(--contrast);
 }
 
